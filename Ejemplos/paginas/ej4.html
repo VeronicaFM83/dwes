@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Ejercicio 5</title>
+        <meta charset="UTF-8"/>
+        <script>
+            function comprueba() {
+                var hayValores = true;
+
+                for(i=1;i<=16;i++){
+                    if(document.getElementById("v"+i).value == "")
+                        hayValores = false;
+                }
+
+                if(hayValores){
+                    document.getElementById("boton").style.opacity = 1;  
+                }else{
+                    document.getElementById("boton").style.opacity = 0;
+                }
+            }
+        </script>
+        <style>
+            html{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            input{
+                text-align: center;
+            }
+        </style>
+	</head>
+	<body>
+        <h1>Localizador del mayor</h1>
+        <form action="ej4.php" method="post">
+            <table>
+                <tr>
+                    <td><input type="number" id="v1" name="arr[0][]" onkeyup="comprueba();" value="1" min="0" max="100"></td>
+                    <td><input type="number" id="v2" name="arr[0][]" onkeyup="comprueba();" value="2" min="0" max="100"></td>
+                    <td><input type="number" id="v3" name="arr[0][]" onkeyup="comprueba();" value="3" min="0" max="100"></td>
+                    <td><input type="number" id="v4" name="arr[0][]" onkeyup="comprueba();" value="4" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="v5" name="arr[1][]" onkeyup="comprueba();" value="5" min="0" max="100"></td>
+                    <td><input type="number" id="v6" name="arr[1][]" onkeyup="comprueba();" value="6" min="0" max="100"></td>
+                    <td><input type="number" id="v7" name="arr[1][]" onkeyup="comprueba();" value="7" min="0" max="100"></td>
+                    <td><input type="number" id="v8" name="arr[1][]" onkeyup="comprueba();" value="8" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="v9" name="arr[2][]" onkeyup="comprueba();" value="9" min="0" max="100"></td>
+                    <td><input type="number" id="v10" name="arr[2][]" onkeyup="comprueba();" value="10" min="0" max="100"></td>
+                    <td><input type="number" id="v11" name="arr[2][]" onkeyup="comprueba();" value="11" min="0" max="100"></td>
+                    <td><input type="number" id="v12" name="arr[2][]" onkeyup="comprueba();" value="12" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="v13" name="arr[3][]" onkeyup="comprueba();" value="13" min="0" max="100"></td>
+                    <td><input type="number" id="v14" name="arr[3][]" onkeyup="comprueba();" value="14" min="0" max="100"></td>
+                    <td><input type="number" id="v15" name="arr[3][]" onkeyup="comprueba();" value="15" min="0" max="100"></td>
+                    <td><input type="number" id="v16" name="arr[3][]" onkeyup="comprueba();" value="16" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="v17" name="arr[4][]" onkeyup="comprueba();" value="17" min="0" max="100"></td>
+                    <td><input type="number" id="v18" name="arr[4][]" onkeyup="comprueba();" value="18" min="0" max="100"></td>
+                    <td><input type="number" id="v19" name="arr[4][]" onkeyup="comprueba();" value="19" min="0" max="100"></td>
+                    <td><input type="number" id="v20" name="arr[4][]" onkeyup="comprueba();" value="20" min="0" max="100"></td>
+                </tr>
+            </table>
+            <br/><br/><input type="submit" id="boton" value="Localiza el mayor" style="opacity:1; transition: 0.5s all;">
+        </form>
+	</body>
+</html>

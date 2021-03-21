@@ -1,0 +1,42 @@
+/* --- Estilos comunes --- */
+
+body {
+	font-family: serif;
+}
+
+form{
+	display: inline-block;
+	margin-top: 0em;
+}
+
+.contenedor {
+	border: 5px solid black;
+	max-width: 600px;
+	padding:5px;
+}
+
+.articulos {
+	width: 100%;
+}
+
+.articulo {
+	width: 30%;
+	padding: 5px;
+	margin: 1px;
+	float: left;
+	min-height: 170px;
+}
+
+.carrito {
+	width: 100%;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	min-height: 25%;
+}
+
+.confirmar {
+	border: 5px solid black;
+	width: max-content;
+	padding:10px;
+}

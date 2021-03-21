@@ -1,0 +1,189 @@
+/* --- Estilos comunes --- */
+
+body {
+	font-family: sans-serif;
+	background-color: #dc143c;
+}
+
+#logo{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+form{
+	margin-top: 0em;
+}
+
+button {
+    background-color: #dc143c;
+    border: 0;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.contenedor {
+	max-width: 1000px;
+	background-color: #ffffff;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.articulos {
+	width: 70%;
+	float: left;
+}
+
+.articulo {
+	width: 100%;
+	padding: 10px;
+	float: left;
+	border-bottom: 1px solid #dc143c;
+}
+
+.carrito {
+	width: 20%;
+	display: inline-block;
+	padding: 10px;
+	margin: 35px;
+	min-height: 25%;
+	border: 1px solid #dc143c;
+}
+
+.img_producto{
+	border: 1px solid red;
+	float: left;
+}
+
+.texto_producto{
+	border: 1px solid gray;
+	float: left;
+	width: 48%;
+}
+
+.texto_producto h2{
+	
+}
+
+.texto_producto p{
+	
+}
+
+.precio_producto{
+	border: 1px solid green;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.precio_producto h2{
+	
+}
+
+.precio_producto button{
+	
+}
+
+<img class="img_producto" src="images/img1.jpg" alt="imagen"/>
+				<div class="texto_producto">
+				<h2>Nombre producto</h2>
+				<p>Descripción</p>
+				</div>
+				
+				<div class="precio_producto">
+				<h2>459,9€</h2>
+				<button type='submit' name='boton' value='0'> Añadir al carrito</button>
+				</div>
+
+/* header 
+
+#cabecera {
+	margin: 10px auto;
+    margin-bottom: 0px;
+}
+
+#cabecera h1 {
+	display: inline-block;
+	font-family: arial;
+}
+
+#banner {
+	margin-top: 20px;
+	background-image: url('../imagenes_video/fotoindex1.png');
+	background-repeat: no-repeat;
+	height: 200px;
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	position: relative;
+}
+
+#subtitulo{
+	color: lightgrey;
+	position: absolute;
+	bottom: 0;
+	padding: 20px 0;
+	width: 100%;
+	font-size: 0.8em;
+	background-color: rgba(24,24,24,0.8);
+	border-radius: 0 0 5px 5px;
+}
+ 
+ #subtitulo p {
+ 	margin-left: 10px;
+ }
+*/
+ /* nav 
+
+#navegacion {
+	text-align: right;
+	margin-right: 20px;
+	padding: 30px 0;
+}
+
+#navegacion li {
+	margin-right: 20px;
+	display: inline-block;
+}
+
+#navegacion li a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-family: serif;
+	font-size: 20px;
+}
+
+nav li:hover {
+	color: rgb( 108, 52, 131 ); 
+	border-bottom: 3px solid rgb( 108, 52, 131 );
+}
+
+
+
+*/
+/* footer 
+
+
+#pie {
+	clear: both;
+	margin-top: 100px;
+	font-family: sans-serif;
+	border-top: grey 2px solid;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#pie a {
+	text-decoration: none;
+	color: black;
+	margin: 20px 0;
+}
+
+*/
+
+
+
